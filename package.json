@@ -1,0 +1,22 @@
+{
+  "name": "hello-next",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "Leandro <leandro@digitalcareerinstitute.de> (https://digitalcareerinstitute.de)",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "bootstrap": "^4.3.1",
+    "next": "^9.0.5",
+    "node-sass": "^4.12.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
