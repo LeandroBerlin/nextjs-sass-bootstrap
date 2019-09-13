@@ -1,6 +1,7 @@
 import "../styles/index.scss"
 
 const Index = () => (
+<<<<<<< HEAD
     <>
         <div id="page-content">
             <div className="container text-center">
