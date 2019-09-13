@@ -2,20 +2,19 @@
 @import  "~bootstrap/scss/variables";
 @import  "~bootstrap/scss/mixins/_breakpoints";
 @import  "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 
-
-$font-size: 16px;
+$font-size: 1em;
 $primary: hotpink;
 
 html,
 body {
   height: 100%;
   font-size: $font-size;
+  font-family: Roboto;
   background-color: $primary;
   background: linear-gradient( $primary, rgb(139, 12, 76));
 }
 
-#page-content {
-  flex: 1 0 auto;
-}
+
