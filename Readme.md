@@ -4,6 +4,9 @@
 - Next [Sass](https://github.com/zeit/next-plugins/tree/master/packages/next-sass)
 - Next [Routing](https://nextjs.org/docs#routing)  
 - Bootstrap  
+- Hotpink  
+- Cats  
+
 
 
 A custom [Document](https://github.com/zeit/next.js#custom-document) and custom [App](https://nextjs.org/docs#custom-app) are provided
