@@ -9,14 +9,7 @@ class MyDocument extends Document {
     render() {
         return (
             <Html>
-                <Head>
-                    <title>Check Your Priviledges</title>
-                    <meta
-                        name="viewport"
-                        content="initial-scale=1.0, width=device-width"
-                        key="viewport"
-                    />
-                </Head>
+                <Head />
                 <body className="d-flex flex-column">
                     <Main />
                     <NextScript />

@@ -1,7 +1,6 @@
 import "../styles/index.scss"
 
 const Index = () => (
-<<<<<<< HEAD
     <>
         <div id="page-content">
             <div className="container text-center">
@@ -9,7 +8,8 @@ const Index = () => (
                     <div className="col-md-7">
                         <h1 className="font-weight-light mt-4 text-white">Check your privileges</h1>
                         <p className="lead text-white-50">Next.js SCSS Bootstrap</p>
-                        <button type="button" className="btn btn-primary">Primary</button>
+                        <p><img height="300px" className="rounded" src="https://media.giphy.com/media/K6nPw4pe3r6Bq/source.gif" alt="Meow" /></p>
+                        <button type="button" className="btn btn-primary">Primary Button</button>
                     </div>
                 </div>
             </div>
