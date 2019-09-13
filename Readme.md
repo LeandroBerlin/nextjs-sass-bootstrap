@@ -3,6 +3,7 @@
 - Next [Setup](https://nextjs.org/learn/basics)
 - Next [Sass](https://github.com/zeit/next-plugins/tree/master/packages/next-sass)
 - Next [Routing](https://nextjs.org/docs#routing)  
+- Google Fonts  
 - Bootstrap  
 - Hotpink  
 - Cats  
