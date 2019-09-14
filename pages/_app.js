@@ -1,29 +1,11 @@
-// pages/_app.js
-import App, { Container } from 'next/app'
-import Head from 'next/head'
 import React from 'react'
+import App from 'next/app'
 
-export default class MyApp extends App {
-    static async getInitialProps({ Component, ctx }) {
-        let pageProps = {}
-
-        if (Component.getInitialProps) {
-            pageProps = await Component.getInitialProps(ctx)
-        }
-
-        return { pageProps }
-    }
-
+class MyApp extends App {
     render() {
         const { Component, pageProps } = this.props
-
-        return (
-            <Container>
-                <Head>
-                    <title>Check your privileges</title>
-                </Head>
-                <Component {...pageProps} />
-            </Container>
-        )
+        return <Component {...pageProps} />
     }
 }
+
+export default MyApp
