@@ -1,17 +1,25 @@
 import Link from 'next/link'
+import Nav from '../components/nav'
+import Footer from '../components/footer'
 import "../styles/index.scss"
 
 const About = () => (
-    <div className="container text-center">
-        <div className="row justify-content-center">
-            <div className="col-md-7">
-                <h1 className="font-weight-light mt-4 text-white">About page</h1>
-                <p className="lead text-white-50">A page about us</p>
-                <p><img height="300px" className="rounded" src="https://media.giphy.com/media/B6odR0DhsStfW/source.gif" alt="Meow" /></p>
+    <div className="cover-container d-flex h-100 p-3 mx-auto flex-column">
+        <Nav />
+        <main role="main" className="inner cover">
+            <h1 className="cover-heading">About page</h1>
+            <p className="lead">A page about us</p>
+            <p className="lead">
+                <img className="rounded" src="https://media.giphy.com/media/B6odR0DhsStfW/source.gif" alt="Meow" />
+            </p>
+            <p className="lead">
                 <Link href='/'><button type="button" className="btn btn-danger">Back</button></Link>
-            </div>
-        </div>
+            </p>
+        </main>
+        <Footer />
     </div >
+
+
 );
 
 export default About;
