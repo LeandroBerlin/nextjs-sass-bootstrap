@@ -1,5 +1,5 @@
 import React from 'react'
-import App, { Container } from 'next/app'
+import App from 'next/app'
 import Head from 'next/head'
 
 class MyApp extends App {
@@ -7,12 +7,14 @@ class MyApp extends App {
         const { Component, pageProps } = this.props
 
         return (
-            <Container>
+            <>
                 <Head>
-                    <title>Check your privileges</title>
+
+                    <title>Check your Priviledge</title>
                 </Head>
                 <Component {...pageProps} />
-            </Container>)
+            </>
+        )
     }
 }
 
